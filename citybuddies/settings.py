@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'djoser',
     # My packages
-    'authentication'
+    'authentication',
+    'core'
 ]
 
 AUTH_USER_MODEL = 'authentication.User'
@@ -63,7 +64,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'citybuddies.api.base'
+ROOT_URLCONF = 'citybuddies.urls'
 
 TEMPLATES = [
     {

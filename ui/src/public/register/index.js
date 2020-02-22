@@ -10,6 +10,8 @@ import PersonalInfo from "./personal-information";
 import Role from "./role";
 import ReviewAndSubmission from "./review-and-submission";
 
+import { RegistrationFormProvider,useRegistrationForm } from '../../context/registration-form-context'
+
 const SignupPage = styled.div`
 	position: absolute;
 	top: 0;

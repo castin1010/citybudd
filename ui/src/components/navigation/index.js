@@ -105,7 +105,7 @@ const navigation_links = [
 	{
 		label:'Inbox',
 		icon:'inbox',
-		to:'/messages'
+		to:'/inbox'
 	},
 	{
 		label:'Contacts',

@@ -11,6 +11,12 @@ USER_ROLES = (
 )
 
 class User(AbstractUser):
+    """
+    Extending the user model.
+    It is recommended you start with in every django project that will need user management/authentication.
+    Fields : email,password,username,first_name,last_name,is_active,is_admin,user_role
+    Table Name : auth_user
+    """
     email = models.EmailField(unique=True)
     password = models.CharField(max_length=400)
     username = models.CharField(max_length=100,null=False)
@@ -29,6 +35,12 @@ class User(AbstractUser):
         return self.email
 
 class UserProfile(models.Model):
+    """
+    ForeignKey to User.
+    Holds extra information from a user.
+    Fields : user(foreign),avatar,birthday,city_of_residence,nationality,phone
+    Table name: auth_user_profile
+    """
     user = models.ForeignKey(to=User,on_delete=models.CASCADE,null=False)
     avatar = models.ImageField(upload_to='user', null=True, blank=True)
     birthday = models.DateField(null=True)

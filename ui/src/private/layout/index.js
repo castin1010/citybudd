@@ -26,7 +26,7 @@ const Layout = styled.div`
 		&.body{
 			flex:10;
 			padding:10px 10px 0 0;
-			background-color:#fff;
+			background-color:#f3f7f9;
 		}
 	}
 `

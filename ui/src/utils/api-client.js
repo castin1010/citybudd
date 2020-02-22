@@ -18,5 +18,4 @@ export default function(endpoint,body) {
 		return axios.post(`/api/${endpoint}`, body, config)
 	}
 	return axios.get(`/api/${endpoint}`, config)
-		
 }

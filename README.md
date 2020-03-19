@@ -41,7 +41,8 @@ Start the django development using
 Start the react development server( on a seperate terminal window or tab ) using
 > cd ui && yarn start
 
-You can access the React app on your browser [here](http://localhost:3000) and the django app [here](http://127.0.0.1:8000)
+If you were  following through and all the above steps were done without an issue, you can access the React app on your browser [here](http://localhost:3000) and the django app [here](http://127.0.0.1:8000)
+
 ## Project Description
 The purpose of the project is to create a web-application for CityBuddies which allows students to log in to their profile and be able to work with their mentor as well as other mentees within their group.
 The web-application will be divided into multiple categories allowing the users to search for useful information based on their education or even being able to click and visit other sections based on their mentee’s profile or their mentor’s profile. For instance, it would allow them to view the mentor’s/mentee’s contact details. This means that if they want to talk to their mentor in private they can go during their office hours. 
@@ -51,6 +52,7 @@ This web-application will also have a variety of useful tools/features such as g
 ## Development Stack
 
 # [Django](https://www.djangoproject.com)
+
 
 To install Django you need pip, install using
 > pip3 install django
@@ -88,21 +90,21 @@ To start the development server
 > yarn start
 
 These are the React dependencies so far:
-..* [Fontawesome]()
+..* [fontawesome](https://fontawesome.com/how-to-use/on-the-web/using-with/react)
 > yarn add @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
 > @testing-library/jest-dom": "^4.2.4",
 
-..* [axios]()
+..* [axios](https://github.com/axios/axios)
 > yarn add axios
 
-..*[formik]()
+..*[formik](https://jaredpalmer.com/formik)
 > yarn add formik
 
-..*[react-router-dom]()
+..*[react-router-dom](https://www.npmjs.com/package/react-router-dom)
 > yarn add react-router-dom
 
-..*[react-toggle-component]()
+..*[react-toggle-component](https://gfazioli.github.io/react-toggle/)
 > yarn add react-toggle-component
 
-..*[styled-components]()
+..*[styled-components](https://styled-components.com/)
 > yarn add styled-components
